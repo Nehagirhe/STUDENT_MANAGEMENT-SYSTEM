@@ -102,7 +102,6 @@ if(s[i].result>=180 && s[i].maths>=65 && s[i].physics>=55 && s[i].chemistry>=50)
 		
 		
 		
-   // 
 		
 if(s[i].result>=180 && s[i].maths>=65 && s[i].physics>=55 && s[i].chemistry>=50)
     printf("%d\t|%s  \t|%d      |%d   \t  |%d       |%d       | pass  |\n",s[i].roll,s[i].name,s[i].physics,s[i].chemistry,s[i].maths,s[i].result);
@@ -115,7 +114,7 @@ if(s[i].result>=180 && s[i].maths>=65 && s[i].physics>=55 && s[i].chemistry>=50)
 		break;
 		case'n':
 			
-				printf("....OK NO RECORD DELETED");
+			printf("....OK NO RECORD DELETED");
 			break;
 		}	
 	}}
